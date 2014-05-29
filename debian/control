@@ -1,0 +1,26 @@
+Source: pgbadger
+Section: perl
+Priority: optional
+Maintainer: Maxim Filatov <bregor@evilmartians.com>
+Build-Depends: debhelper (>= 8.0.0), perl
+Standards-Version: 3.9.3
+Homepage: http://dalibo.github.io/pgbadger/
+Vcs-Git: https://github.com/evilmartians/pgbadger.git
+Vcs-Browser: https://github.com/evilmartians/pgbadger
+
+Package: pgbadger
+Architecture: any
+Depends: ${perl:Depends}, ${misc:Depends}
+Description: a fast PostgreSQL Log Analyzer
+ pgBadger is a PostgreSQL log analyzer built for speed with fully detailed
+ reports from your PostgreSQL log file. It's a single and small Perl script
+ that aims to replace and outperform the old php script pgFouine.
+ .
+ pgBadger is written in pure Perl language. It uses a javascript library to
+ draw graphs so that you don't need additional Perl modules or any other
+ package to install. Furthermore, this library gives us additional features,
+ such as zooming.
+ .
+ pgBadger is able to autodetect your log file format (syslog, stderr or
+ csvlog). It is designed to parse huge log files, as well as gzip compressed
+ file. See a complete list of features below.
