@@ -3,7 +3,7 @@ Section: perl
 Priority: optional
 Maintainer: Maxim Filatov <bregor@evilmartians.com>
 Build-Depends: debhelper (>= 8.0.0), perl
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://dalibo.github.io/pgbadger/
 Vcs-Git: https://github.com/evilmartians/pgbadger.git
 Vcs-Browser: https://github.com/evilmartians/pgbadger
