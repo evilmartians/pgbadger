@@ -1,3 +1,9 @@
+pgbadger (5.1-mrtns2) trusty; urgency=low
+
+  * Trusty build
+
+ -- Maxim Filatov <bregor@evilmartians.com>  Thu, 29 May 2014 14:42:36 +0400
+
 pgbadger (5.1-mrtns1) precise; urgency=low
 
   * Martians build 5.1
